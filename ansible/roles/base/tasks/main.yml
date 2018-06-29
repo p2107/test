@@ -1,0 +1,6 @@
+---
+# This is a test to see if we can use common roles across multiple roles
+
+- name: pipe current time to file for rudimentary versioning
+  shell: echo "This image was generated on $(date) " > /root/VERSION
+
